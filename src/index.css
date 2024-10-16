@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loading-bar{
+    width: 0%;
+    background-color: aqua;
+    height: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.loading-bar-full{
+    width: 100%;
+    background-color: aqua;
+    height: 0.25rem;
+    margin-bottom: 0.25rem;
+    transition: 20s;
+    transition-timing-function: linear;
+}
